@@ -13,12 +13,17 @@ const router = createRouter({
     },
     {
       path: '/works',
-      name: 'work',
+      name: 'works',
       component: WorkView,
     },
     {
       path: '/search_practice',
       name: 'search_practice',
+      component: SearchPracticeView,
+    },
+    {
+      path: '/exercise',
+      name: 'exercise',
       component: SearchPracticeView,
     },
 

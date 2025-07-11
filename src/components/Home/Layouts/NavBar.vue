@@ -9,9 +9,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav m-auto gap-2">
-                    <RouterLink class="nav-link active" to="/"><i class="bi bi-x-diamond me-1"></i> ទំព័រដើម</RouterLink>
-                    <RouterLink class="nav-link" to="/works"><i class="bi bi-briefcase me-1"></i> កិច្ចការ</RouterLink>
-                    <RouterLink class="nav-link" to="/search_practice"><i class="bi bi-columns-gap me-1"></i> ការស្រាវជ្រាវ និង ការអនុវត្ត</RouterLink>
+                    <RouterLink class="nav-link" active-class="active" to="/"><i class="bi bi-x-diamond me-1"></i> ទំព័រដើម</RouterLink>
+                    <RouterLink class="nav-link" active-class="active" to="/works"><i class="bi bi-briefcase me-1"></i> កិច្ចការ</RouterLink>
+                    <RouterLink class="nav-link" active-class="active" to="/search_practice"><i class="bi bi-columns-gap me-1"></i> ការស្រាវជ្រាវ និង ការអនុវត្ត</RouterLink>
                 </div>
             </div>
             <button class="btn btn-link text-light">
@@ -23,7 +23,5 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router';
-
-
+    import { RouterLink } from 'vue-router';
 </script>

@@ -12,3 +12,15 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+.btn.btn-light{
+    border-color: #ffffff2d;
+}
+.btn-light{
+    color: #ffffffb4;
+    background-color: #ffffff14 !important;
+}
+.btn-light:hover{
+    color: #ffffff;
+    background-color: #ffffff2f !important;
+}
